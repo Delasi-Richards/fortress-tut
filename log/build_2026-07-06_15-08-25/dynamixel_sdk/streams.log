@@ -1,0 +1,232 @@
+[0.077s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk
+[1.275s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.277s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.278s] -- Configuring done
+[1.279s] -- Generating done
+[1.280s] -- Build files have been written to: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk
+[1.343s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk
+[1.344s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk -- -j8 -l8
+[1.468s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.469s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.469s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.469s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.469s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.470s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.470s] [ 33%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.485s] [ 33%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[2.301s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[2.396s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[2.601s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[2.749s] running egg_info
+[2.758s] creating dynamixel_sdk.egg-info
+[2.759s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.759s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.759s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[2.766s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.780s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.786s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.860s] running egg_info
+[2.861s] creating dynamixel_easy_sdk.egg-info
+[2.869s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[2.873s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[2.873s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[2.873s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.913s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.919s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.969s] [ 50%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[3.025s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[3.026s] [ 55%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[3.085s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[3.257s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[3.413s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[3.589s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[3.971s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[4.128s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[4.172s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[8.851s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[9.368s] [100%] Built target dynamixel_sdk
+[9.426s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk -- -j8 -l8
+[9.429s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk
+[9.462s] -- Install configuration: ""
+[9.462s] -- Execute custom install script
+[9.462s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[9.480s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[9.498s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[9.517s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[9.536s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[9.556s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[9.574s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[9.592s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[9.615s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[9.627s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[9.642s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[9.660s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[9.676s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[9.690s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[9.708s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[9.727s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[9.743s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[9.757s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[9.775s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[9.794s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[9.817s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[9.847s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[9.871s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[9.914s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[9.933s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[9.955s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[9.978s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[9.995s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[10.014s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[10.033s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[10.049s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[10.072s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[10.118s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[10.150s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[10.183s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[10.219s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[10.237s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[10.258s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[10.276s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[10.295s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[10.318s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[10.341s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[10.361s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[10.384s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[10.402s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[10.425s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[10.441s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[10.463s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[10.491s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[10.522s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[10.540s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[10.561s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[10.583s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[10.626s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[10.639s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[10.661s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[10.684s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[10.701s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[10.728s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[10.745s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[10.761s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[10.785s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[10.803s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[10.824s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[10.841s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[10.861s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[10.874s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[10.891s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[10.906s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[10.934s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[10.952s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[10.968s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[10.984s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[11.000s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[11.018s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[11.034s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[11.053s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[11.068s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[11.086s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[11.103s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[11.123s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[11.141s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[11.158s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[11.174s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[11.191s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[11.207s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[11.224s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[11.242s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[11.259s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[11.275s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[11.292s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[11.308s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[11.326s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[11.345s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.5-py3.10.egg-info/PKG-INFO
+[11.362s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.5-py3.10.egg-info/SOURCES.txt
+[11.377s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.5-py3.10.egg-info/dependency_links.txt
+[11.394s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.5-py3.10.egg-info/top_level.txt
+[11.412s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[11.429s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[11.448s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[11.466s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[11.483s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[11.502s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[11.551s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[11.568s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[11.584s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[11.603s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[11.621s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[11.653s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[11.681s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[11.711s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[11.736s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[11.753s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[11.770s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[11.786s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[11.804s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[11.850s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[11.885s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[11.901s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[11.940s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[11.967s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[11.995s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[12.021s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.5-py3.10.egg-info/PKG-INFO
+[12.039s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.5-py3.10.egg-info/SOURCES.txt
+[12.060s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.5-py3.10.egg-info/dependency_links.txt
+[12.098s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.5-py3.10.egg-info/top_level.txt
+[12.117s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py
+[12.148s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.cpp
+[12.165s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py
+[12.181s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.cpp
+[12.199s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py
+[12.217s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py
+[12.251s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[12.286s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py
+[12.305s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.cpp
+[12.344s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py
+[12.375s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.cpp
+[12.393s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py
+[12.414s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[12.458s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[12.491s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[12.531s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[12.558s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[12.575s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[12.595s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[12.614s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[12.656s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[12.692s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[12.737s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[12.782s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[12.818s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[12.866s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[12.902s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[12.942s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.983s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[13.015s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[13.053s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[13.071s] -- Symlinking: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[13.116s] -- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[13.268s] Listing '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[13.268s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py'...
+[13.268s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py'...
+[13.268s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py'...
+[13.269s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py'...
+[13.269s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py'...
+[13.269s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py'...
+[13.269s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py'...
+[13.270s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[13.270s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[13.270s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py'...
+[13.415s] Listing '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk'...
+[13.415s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py'...
+[13.415s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py'...
+[13.416s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py'...
+[13.416s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py'...
+[13.416s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[13.416s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py'...
+[13.416s] Compiling '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py'...
+[13.426s] -- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[13.426s] -- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[13.447s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk

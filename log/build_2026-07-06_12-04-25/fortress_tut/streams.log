@@ -1,0 +1,33 @@
+[0.796s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut': PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fortress_tut build --build-base /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build install --record /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/install.log --install-scripts $base/lib/fortress_tut --single-version-externally-managed install_data
+[1.084s] running egg_info
+[1.084s] creating ../../build/fortress_tut/fortress_tut.egg-info
+[1.084s] writing ../../build/fortress_tut/fortress_tut.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/fortress_tut/fortress_tut.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../build/fortress_tut/fortress_tut.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../build/fortress_tut/fortress_tut.egg-info/requires.txt
+[1.085s] writing top-level names to ../../build/fortress_tut/fortress_tut.egg-info/top_level.txt
+[1.086s] writing manifest file '../../build/fortress_tut/fortress_tut.egg-info/SOURCES.txt'
+[1.087s] reading manifest file '../../build/fortress_tut/fortress_tut.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/fortress_tut/fortress_tut.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.089s] running build_py
+[1.089s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build
+[1.089s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build/lib
+[1.089s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build/lib/fortress_tut
+[1.089s] copying fortress_tut/__init__.py -> /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build/lib/fortress_tut
+[1.090s] running install
+[1.090s] running install_lib
+[1.091s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress_tut
+[1.091s] copying /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build/lib/fortress_tut/__init__.py -> /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress_tut
+[1.092s] byte-compiling /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress_tut/__init__.py to __init__.cpython-310.pyc
+[1.092s] running install_data
+[1.092s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/share/ament_index
+[1.092s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/share/ament_index/resource_index
+[1.093s] creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/share/ament_index/resource_index/packages
+[1.093s] copying resource/fortress_tut -> /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/share/ament_index/resource_index/packages
+[1.093s] copying package.xml -> /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/share/fortress_tut
+[1.093s] running install_egg_info
+[1.095s] Copying ../../build/fortress_tut/fortress_tut.egg-info to /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress_tut-0.0.0-py3.10.egg-info
+[1.096s] running install_scripts
+[1.122s] writing list of installed files to '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/install.log'
+[1.157s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut' returned '0': PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fortress_tut build --build-base /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build install --record /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/install.log --install-scripts $base/lib/fortress_tut --single-version-externally-managed install_data
