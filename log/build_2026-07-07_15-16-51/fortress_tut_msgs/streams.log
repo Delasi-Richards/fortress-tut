@@ -1,0 +1,44 @@
+[0.115s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs
+[0.165s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.701s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.736s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.028s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.120s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.065s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.150s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.150s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.150s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.404s] -- Added test 'lint_cmake' to check CMake code style
+[4.407s] -- Added test 'xmllint' to check XML markup files
+[4.426s] -- Configuring done
+[4.545s] -- Generating done
+[4.584s] -- Build files have been written to: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs
+[4.606s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs
+[4.611s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs -- -j8 -l8
+[4.729s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_generator_c[0m
+[4.765s] [  9%] Built target fortress_tut_msgs__cpp
+[4.766s] [ 12%] Built target fortress_tut_msgs__rosidl_generator_c
+[4.783s] [ 15%] Built target fortress_tut_msgs__rs
+[4.784s] failed to create symbolic link '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs/ament_cmake_python/fortress_tut_msgs/fortress_tut_msgs' because existing path cannot be removed: Is a directory
+[4.791s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs] Error 1
+[4.791s] gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs.dir/all] Error 2
+[4.792s] gmake[1]: *** Waiting for unfinished jobs....
+[4.818s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.820s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_cpp[0m
+[4.833s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_introspection_c[0m
+[4.837s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_c[0m
+[4.840s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.841s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.874s] [ 25%] Built target fortress_tut_msgs__rosidl_typesupport_introspection_cpp
+[4.883s] [ 34%] Built target fortress_tut_msgs__rosidl_typesupport_cpp
+[4.921s] [ 43%] Built target fortress_tut_msgs__rosidl_typesupport_fastrtps_c
+[4.927s] [ 62%] Built target fortress_tut_msgs__rosidl_typesupport_introspection_c
+[4.927s] [ 62%] Built target fortress_tut_msgs__rosidl_typesupport_fastrtps_cpp
+[4.940s] [ 71%] Built target fortress_tut_msgs__rosidl_typesupport_c
+[4.947s] gmake: *** [Makefile:146: all] Error 2
+[4.985s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs -- -j8 -l8

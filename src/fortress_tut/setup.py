@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "robot = fortress_tut.robot:main",
+            "commander = fortress_tut.commander:main"
         ],
     },
 )

@@ -1,0 +1,17 @@
+[2.434s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut': PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build --no-deps symlink_data
+[2.852s] running develop
+[3.117s] running egg_info
+[3.117s] writing fortress_tut.egg-info/PKG-INFO
+[3.118s] writing dependency_links to fortress_tut.egg-info/dependency_links.txt
+[3.118s] writing entry points to fortress_tut.egg-info/entry_points.txt
+[3.118s] writing requirements to fortress_tut.egg-info/requires.txt
+[3.118s] writing top-level names to fortress_tut.egg-info/top_level.txt
+[3.121s] reading manifest file 'fortress_tut.egg-info/SOURCES.txt'
+[3.123s] writing manifest file 'fortress_tut.egg-info/SOURCES.txt'
+[3.126s] running build_ext
+[3.126s] Creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress-tut.egg-link (link to .)
+[3.127s] Installing robot script to /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/fortress_tut
+[3.128s] 
+[3.128s] Installed /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut
+[3.128s] running symlink_data
+[3.173s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut' returned '0': PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build --no-deps symlink_data

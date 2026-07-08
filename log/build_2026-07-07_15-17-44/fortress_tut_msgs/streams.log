@@ -1,0 +1,32 @@
+[0.106s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut_msgs -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs
+[0.168s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.795s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.105s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.095s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.993s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.077s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.077s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.355s] -- Added test 'lint_cmake' to check CMake code style
+[4.360s] -- Added test 'xmllint' to check XML markup files
+[4.376s] -- Configuring done
+[4.476s] -- Generating done
+[4.503s] -- Build files have been written to: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs
+[4.518s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/fortress_tut_msgs -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs
+[4.523s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs -- -j8 -l8
+[4.649s] [35m[1mConsolidate compiler generated dependencies of target fortress_tut_msgs__rosidl_generator_c[0m
+[4.691s] [  6%] Built target fortress_tut_msgs__rs
+[4.694s] [ 12%] Built target fortress_tut_msgs__rosidl_generator_c
+[4.698s] failed to create symbolic link '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs/ament_cmake_python/fortress_tut_msgs/fortress_tut_msgs' because existing path cannot be removed: Is a directory
+[4.698s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs] Error 1
+[4.699s] [ 15%] Built target fortress_tut_msgs__cpp
+[4.699s] gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_fortress_tut_msgs.dir/all] Error 2
+[4.699s] gmake[1]: *** Waiting for unfinished jobs....
+[4.702s] gmake: *** [Makefile:146: all] Error 2
+[4.705s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut_msgs -- -j8 -l8

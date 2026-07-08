@@ -1,0 +1,56 @@
+[0.115s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_custom_interfaces
+[0.180s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.702s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.711s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.734s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.860s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.052s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.097s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.170s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.170s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.171s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.459s] -- Configuring done
+[4.568s] -- Generating done
+[4.606s] -- Build files have been written to: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk_custom_interfaces
+[4.624s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_custom_interfaces
+[4.627s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_teleop:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/turtlebot3_example:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut:/home/dr/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[4.783s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_c[0m
+[4.811s] [  2%] Built target dynamixel_sdk_custom_interfaces__rs
+[4.835s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[4.841s] [ 15%] Built target dynamixel_sdk_custom_interfaces__cpp
+[4.844s] [ 15%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[4.879s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c[0m
+[4.902s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.909s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp[0m
+[4.919s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c[0m
+[4.922s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.941s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.978s] [ 25%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.980s] [ 35%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[4.982s] [ 45%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[4.987s] [ 55%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[4.992s] [ 65%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.996s] [ 75%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[5.042s] [ 75%] Built target dynamixel_sdk_custom_interfaces
+[5.095s] [ 77%] Built target dynamixel_sdk_custom_interfaces__py
+[5.120s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_py[0m
+[5.160s] [ 85%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[5.196s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext[0m
+[5.196s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.198s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[5.235s] [ 90%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[5.245s] [ 95%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.255s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.603s] running egg_info
+[5.608s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[5.609s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[5.609s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[5.614s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.615s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.677s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
