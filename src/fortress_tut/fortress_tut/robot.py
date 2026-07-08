@@ -9,11 +9,11 @@ from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Vector3, Twist
 from fortress_tut_msgs.srv import MoveTurtlebot
 
-Kpp = 0.1
-Kp = 1
-Ki = 1
-Kd = 1
-Ts = 0.5
+Kpp = 0.5
+Kp = 1.5
+Ki = 0.075
+Kd = 2.5
+Ts = 0.05
 
 
 class RobotNode(Node):
@@ -31,62 +31,33 @@ class RobotNode(Node):
         self.previous_cmd = Vector3()
 
         self.yaw_integral = 0.0
-        self.yaw_prev_error = 0.0
+        self.yaw_prev_error = None
 
     def get_pose(self, odom: Odometry):
         self.current_pose.x = odom.pose.pose.position.x
         self.current_pose.y = odom.pose.pose.position.y
         self.current_pose.z = odom.pose.pose.orientation.z
-        
-
-    # Unused
-    def position_callback(self, desired_pose: Vector3):                
-        error_pose = Vector3()
-        error_pose.x = (desired_pose.x - self.current_pose.x)
-        error_pose.y = (desired_pose.y - self.current_pose.y)
-
-        self.get_logger().info(f"Pose error\n\tx: {error_pose.x:.4f}m\ty: {error_pose.y:.4f}m\tyaw: {atan(error_pose.y / error_pose.x):.4f}r")
-        self.get_logger().info(f"Current yaw: {self.current_pose.z}") ##
-
-        # Prepare publishing message
-        cmd_msg = Twist()
-
-        linear_error = sqrt(pow(error_pose.x, 2) + pow(error_pose.y, 2))
-        cmd_msg.linear.x = linear_error * Kpp
-
-        angular_error = atan(abs(error_pose.y) / abs(error_pose.x)) - self.current_pose.z
-        self.yaw_integral += angular_error * Ts
-        cmd_msg.angular.z = (angular_error * Kp) + (self.yaw_integral * Ki) + (((angular_error - self.yaw_prev_error) / Ts) * Kd)
-
-        self.get_logger().info(f"Control signal\n\tx: {cmd_msg.linear.x:.3f}ms-1\tyaw: {cmd_msg.angular.z:.3f}rads-1\n")
-        self.pub_cmd.publish(cmd_msg)
-        # self.previous_cmd = self.cmd_signal
-
-        # Check if error is within tolerance
-        if ((abs(error_pose.x) < 0.05) and (abs(error_pose.y) < 0.05)):
-            stop_signal = Twist()
-            self.pub_cmd.publish(stop_signal)
-            self.get_logger().info("position movement complete")
-            self.destroy_timer(self.controller_sampler)
-            self.controller_sampler = None
 
     def timer_callback(self, desired_pose: Vector3):
         error_x = (desired_pose.x - self.current_pose.x)
         error_y = (desired_pose.y - self.current_pose.y)
         error_position = sqrt(pow(error_x, 2) + pow(error_y, 2))
 
-        error_yaw = atan(abs(error_y) / abs(error_x)) - self.current_pose.z
+        error_yaw = atan((error_y) / (error_x)) - self.current_pose.z
 
-        self.get_logger().info(f"Current pose\n\tx: {self.current_pose.x:.4f}m\ty: {self.current_pose.y:.4f}m\tyaw: {self.current_pose.z:.4f}r")
+        self.get_logger().info(f"Current pose\n\tx: {self.current_pose.x:.4f}m\ty: {self.current_pose.y:.4f}m\tyaw: {self.current_pose.z:.4f}r\ttarget_yaw: {(atan((error_y) / (error_x))):.4f}r")
         self.get_logger().info(f"Pose error\n\tx: {error_x:.4f}m\ty: {error_y:.4f}m\tyaw: {error_yaw:.4f}r")
+
+        if self.yaw_prev_error is None:
+            self.yaw_prev_error = error_yaw
 
         cmd_msg = Twist()
         cmd_msg.linear.x = error_position * Kpp
         self.yaw_integral += error_yaw * Ts
         cmd_msg.angular.z = (error_yaw * Kp) + (self.yaw_integral * Ki) + (((error_yaw - self.yaw_prev_error) / Ts) * Kd)
-        self.yaw_prev_error = error_yaw
 
-        self.get_logger().info(f"Control signal\n\tx: {cmd_msg.linear.x:.3f}ms-1\tyaw: {cmd_msg.angular.z:.3f}rads-1\n")
+        self.get_logger().info(f"Control signal\n\tx: {cmd_msg.linear.x:.3f}ms-1\tyaw: {cmd_msg.angular.z:.3f}rads-1")
+        self.get_logger().info(f"\tP: {(error_yaw * Kp):.4f}\tI: {(self.yaw_integral * Ki):.4f}\tD: {(((error_yaw - self.yaw_prev_error) / Ts) * Kd)}\n")
         self.pub_cmd.publish(cmd_msg)
 
         if ((abs(error_x) < 0.05) and (abs(error_y) < 0.05)):
@@ -95,6 +66,8 @@ class RobotNode(Node):
             self.get_logger().info("position movement complete")
             self.destroy_timer(self.controller_sampler)
             self.controller_sampler = None
+
+        self.yaw_prev_error = error_yaw
 
     def move_turtlebot3(self, request: MoveTurtlebot.Request, response: MoveTurtlebot.Response):
         try:
