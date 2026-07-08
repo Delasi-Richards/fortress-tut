@@ -3,9 +3,9 @@
 <package format="3">
   <name>fortress_tut</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Submission for Fortress ROS2 Assessment</description>
   <maintainer email="delasi.richards@gmail.com">Delasi Richards</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>nav_msgs</depend>
