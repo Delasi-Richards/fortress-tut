@@ -29,7 +29,7 @@ def main():
     future = node.send_request(float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3]))
     rclpy.spin_until_future_complete(node, future)
     response: MoveTurtlebot.Response = future.result()
-    node.get_logger().info(f"Success: {response.success}\n\tx: {response.x:.5f}\ty: {response.y:.5f}\tyaw: {response.yaw:.5f}")
+    node.get_logger().info(f"Success: {response.success}")
     node.destroy_node()
     rclpy.shutdown()
 

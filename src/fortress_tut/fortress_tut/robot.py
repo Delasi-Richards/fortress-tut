@@ -64,6 +64,7 @@ class RobotNode(Node):
             self.destroy_timer(self.position_controller_sampler)
             self.position_controller_sampler = None
             self.orientation_controller_sampler = self.create_timer(Ts, partial(self.orientation_callback, desired_yaw))
+            return
         else:
             error_position = sqrt(error_x ** 2 + error_y ** 2)
             error_yaw = atan(error_y / error_x) - self.current_pose.z
@@ -99,6 +100,8 @@ class RobotNode(Node):
             self.get_logger().info("orientation movement complete")
             self.destroy_timer(self.orientation_controller_sampler)
             self.orientation_controller_sampler = None
+
+            return
         else:
             self.get_logger().info(f"Current yaw error: {error_yaw}r")
 
@@ -109,18 +112,16 @@ class RobotNode(Node):
             self.pub_cmd.publish(cmd_msg)       
 
     def move_turtlebot3(self, request: MoveTurtlebot.Request, response: MoveTurtlebot.Response):
+        response.success = False
+
         Ts = self.get_parameter("Ts").get_parameter_value().double_value
-        try:
-            self.position_controller_sampler = self.create_timer(Ts, partial(self.position_callback, request.x, request.y, request.yaw))
-        except Exception as e:
-            response.success = False
-            self.get_logger().error(str(e))
-            return response
-        
+        self.position_controller_sampler = self.create_timer(Ts, partial(self.position_callback, request.x, request.y, request.yaw))
+
         response.success = True
         response.x = self.previous_cmd.x
         response.y = self.previous_cmd.y
         response.yaw = self.previous_cmd.z
+
         self.get_logger().info(f"Successfully moved turtle to ({response.x:.3f}m, {response.y:.3f}m, {response.yaw:.3f}r)")
         return response
 
