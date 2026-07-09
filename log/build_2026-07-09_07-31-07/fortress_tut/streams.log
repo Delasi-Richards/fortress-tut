@@ -1,0 +1,18 @@
+[1.296s] Invoking command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut': AMENT_PREFIX_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs LD_LIBRARY_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build --no-deps symlink_data
+[1.619s] running develop
+[1.821s] running egg_info
+[1.822s] writing fortress_tut.egg-info/PKG-INFO
+[1.822s] writing dependency_links to fortress_tut.egg-info/dependency_links.txt
+[1.822s] writing entry points to fortress_tut.egg-info/entry_points.txt
+[1.822s] writing requirements to fortress_tut.egg-info/requires.txt
+[1.823s] writing top-level names to fortress_tut.egg-info/top_level.txt
+[1.825s] reading manifest file 'fortress_tut.egg-info/SOURCES.txt'
+[1.827s] writing manifest file 'fortress_tut.egg-info/SOURCES.txt'
+[1.829s] running build_ext
+[1.830s] Creating /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages/fortress-tut.egg-link (link to .)
+[1.834s] Installing commander script to /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/fortress_tut
+[1.834s] Installing robot script to /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/fortress_tut
+[1.834s] 
+[1.834s] Installed /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut
+[1.834s] running symlink_data
+[1.893s] Invoked command in '/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut' returned '0': AMENT_PREFIX_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs LD_LIBRARY_PATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut/lib/python3.10/site-packages:/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/fortress_tut_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/fortress_tut/build --no-deps symlink_data

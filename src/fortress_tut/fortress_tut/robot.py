@@ -118,11 +118,10 @@ class RobotNode(Node):
         self.position_controller_sampler = self.create_timer(Ts, partial(self.position_callback, request.x, request.y, request.yaw))
 
         response.success = True
-        response.x = self.previous_cmd.x
-        response.y = self.previous_cmd.y
-        response.yaw = self.previous_cmd.z
+        response.x = self.current_pose.x
+        response.y = self.current_pose.y
+        response.yaw = self.current_pose.z
 
-        self.get_logger().info(f"Successfully moved turtle to ({response.x:.3f}m, {response.y:.3f}m, {response.yaw:.3f}r)")
         return response
 
 

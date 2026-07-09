@@ -21,7 +21,7 @@ source script.bash
 
 1. To run the service node, run the following command
 ```shell
-
+ros2 launch fortress_tut simulation_launch.py
 ```
 
 2. To run the client node, run the following command
