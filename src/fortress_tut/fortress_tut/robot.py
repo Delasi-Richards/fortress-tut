@@ -65,9 +65,9 @@ class RobotNode(Node):
             return
         else:
             error_position = sqrt(error_x ** 2 + error_y ** 2)
-            error_yaw = atan(error_y / error_x) - self.current_pose.z
-            if (error_x <= 0) and (error_y <= 0):
-                error_position = 0 - error_position
+            error_yaw = atan2(error_y, error_x) - self.current_pose.z
+            # if (error_x < 0) and (error_y < 0):
+            #     error_position = 0 - error_position
             self.get_logger().info(f"Current position error\tx: {error_x:.4f}m\ty: {error_y:.4f}m\t")
             if self.yaw_prev_error is None:
                 self.yaw_prev_error = error_yaw
