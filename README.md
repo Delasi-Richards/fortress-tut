@@ -14,8 +14,7 @@ The project makes use of ROS2 Humble and Gazebo 11 for simulating the movement o
 colcon build
 source script.bash
 ```
-
-3. In the repository root folder, the `script.bash` file contains commands to source the environment and set up environment variables.
+The `script.bash` file contains commands to source the environment and set up the necessary environment variables.
 
 ## Running the Simulation
 

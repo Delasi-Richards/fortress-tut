@@ -14,7 +14,7 @@ class RobotNode(Node):
 
     def __init__(self):
         super().__init__("robot")
-        self.get_logger().info("Started the robot node\n")
+        self.get_logger().info("Started the robot service node\n")
 
         self.declare_parameter("Ts", 0.05)
         self.declare_parameter("Kpp", 0.1)
@@ -58,7 +58,7 @@ class RobotNode(Node):
         ):
             stop_signal = Twist()
             self.pub_cmd.publish(stop_signal)
-            self.get_logger().info("position movement complete")
+            self.get_logger().info("Position movement control complete\n")
             self.yaw_integral = 0.0
             self.yaw_prev_error = None
             self.destroy_timer(self.position_controller_sampler)
@@ -71,8 +71,7 @@ class RobotNode(Node):
             if (error_x <= 0) and (error_y <= 0):
                 error_position = 0 - error_position
                 
-            self.get_logger().info(f"Current pose\n\tx: {self.current_pose.x:.4f}m\ty: {self.current_pose.y:.4f}m\tyaw: {self.current_pose.z:.4f}r\ttarget_yaw: {(atan(error_y / error_x)):.4f}r")
-            self.get_logger().info(f"Pose error\n\tx: {error_x:.4f}m\ty: {error_y:.4f}m\tyaw: {error_yaw:.4f}r")
+            self.get_logger().info(f"Current position error\tx: {error_x:.4f}m\ty: {error_y:.4f}m\t")
 
             if self.yaw_prev_error is None:
                 self.yaw_prev_error = error_yaw
@@ -86,7 +85,6 @@ class RobotNode(Node):
                 (((error_yaw - self.yaw_prev_error) / Ts) * self.get_parameter("Kd").get_parameter_value().double_value)
             )
 
-            self.get_logger().info(f"Control signal\n\tx: {cmd_msg.linear.x:.3f}ms-1\tyaw: {cmd_msg.angular.z:.3f}rads-1")
             self.pub_cmd.publish(cmd_msg)
 
             self.yaw_prev_error = error_yaw
@@ -97,18 +95,15 @@ class RobotNode(Node):
         if (abs(error_yaw) < self.get_parameter("tol_yaw").get_parameter_value().double_value):
             stop_signal = Twist()
             self.pub_cmd.publish(stop_signal)
-            self.get_logger().info("orientation movement complete")
+            self.get_logger().info("Orientation movement control complete")
             self.destroy_timer(self.orientation_controller_sampler)
             self.orientation_controller_sampler = None
 
             return
         else:
             self.get_logger().info(f"Current yaw error: {error_yaw}r")
-
             cmd_msg = Twist()
             cmd_msg.angular.z = error_yaw * self.get_parameter("Kpo").get_parameter_value().double_value
-
-            self.get_logger().info(f"Control signal: {cmd_msg.angular.z}rads-1]\n")
             self.pub_cmd.publish(cmd_msg)       
 
     def move_turtlebot3(self, request: MoveTurtlebot.Request, response: MoveTurtlebot.Response):
