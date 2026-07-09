@@ -190,7 +190,7 @@ void MoveTurtlebot_Response_fini_function(void * message_memory)
   typed_message->~MoveTurtlebot_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveTurtlebot_Response_message_member_array[4] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveTurtlebot_Response_message_member_array[1] = {
   {
     "success",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -207,64 +207,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveTurtlebot
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "x",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(fortress_tut_msgs::srv::MoveTurtlebot_Response, x),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "y",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(fortress_tut_msgs::srv::MoveTurtlebot_Response, y),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "yaw",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(fortress_tut_msgs::srv::MoveTurtlebot_Response, yaw),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers MoveTurtlebot_Response_message_members = {
   "fortress_tut_msgs::srv",  // message namespace
   "MoveTurtlebot_Response",  // message name
-  4,  // number of fields
+  1,  // number of fields
   sizeof(fortress_tut_msgs::srv::MoveTurtlebot_Response),
   MoveTurtlebot_Response_message_member_array,  // message members
   MoveTurtlebot_Response_init_function,  // function to initialize message memory (memory has to be allocated)

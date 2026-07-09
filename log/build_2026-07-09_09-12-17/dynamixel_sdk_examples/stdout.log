@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable read_write_node[0m
+[100%] Built target read_write_node
+-- Install configuration: ""
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+-- Set runtime path of "/home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+-- Installing: /home/dr/Documents/ros2_workspaces/fortress_tut_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml

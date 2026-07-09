@@ -258,9 +258,6 @@ fortress_tut_msgs__srv__MoveTurtlebot_Response__init(fortress_tut_msgs__srv__Mov
     return false;
   }
   // success
-  // x
-  // y
-  // yaw
   return true;
 }
 
@@ -271,9 +268,6 @@ fortress_tut_msgs__srv__MoveTurtlebot_Response__fini(fortress_tut_msgs__srv__Mov
     return;
   }
   // success
-  // x
-  // y
-  // yaw
 }
 
 bool
@@ -284,18 +278,6 @@ fortress_tut_msgs__srv__MoveTurtlebot_Response__are_equal(const fortress_tut_msg
   }
   // success
   if (lhs->success != rhs->success) {
-    return false;
-  }
-  // x
-  if (lhs->x != rhs->x) {
-    return false;
-  }
-  // y
-  if (lhs->y != rhs->y) {
-    return false;
-  }
-  // yaw
-  if (lhs->yaw != rhs->yaw) {
     return false;
   }
   return true;
@@ -311,12 +293,6 @@ fortress_tut_msgs__srv__MoveTurtlebot_Response__copy(
   }
   // success
   output->success = input->success;
-  // x
-  output->x = input->x;
-  // y
-  output->y = input->y;
-  // yaw
-  output->yaw = input->yaw;
   return true;
 }
 

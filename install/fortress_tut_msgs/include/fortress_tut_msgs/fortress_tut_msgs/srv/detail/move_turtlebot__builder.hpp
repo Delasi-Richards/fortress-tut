@@ -95,64 +95,16 @@ namespace srv
 namespace builder
 {
 
-class Init_MoveTurtlebot_Response_yaw
-{
-public:
-  explicit Init_MoveTurtlebot_Response_yaw(::fortress_tut_msgs::srv::MoveTurtlebot_Response & msg)
-  : msg_(msg)
-  {}
-  ::fortress_tut_msgs::srv::MoveTurtlebot_Response yaw(::fortress_tut_msgs::srv::MoveTurtlebot_Response::_yaw_type arg)
-  {
-    msg_.yaw = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::fortress_tut_msgs::srv::MoveTurtlebot_Response msg_;
-};
-
-class Init_MoveTurtlebot_Response_y
-{
-public:
-  explicit Init_MoveTurtlebot_Response_y(::fortress_tut_msgs::srv::MoveTurtlebot_Response & msg)
-  : msg_(msg)
-  {}
-  Init_MoveTurtlebot_Response_yaw y(::fortress_tut_msgs::srv::MoveTurtlebot_Response::_y_type arg)
-  {
-    msg_.y = std::move(arg);
-    return Init_MoveTurtlebot_Response_yaw(msg_);
-  }
-
-private:
-  ::fortress_tut_msgs::srv::MoveTurtlebot_Response msg_;
-};
-
-class Init_MoveTurtlebot_Response_x
-{
-public:
-  explicit Init_MoveTurtlebot_Response_x(::fortress_tut_msgs::srv::MoveTurtlebot_Response & msg)
-  : msg_(msg)
-  {}
-  Init_MoveTurtlebot_Response_y x(::fortress_tut_msgs::srv::MoveTurtlebot_Response::_x_type arg)
-  {
-    msg_.x = std::move(arg);
-    return Init_MoveTurtlebot_Response_y(msg_);
-  }
-
-private:
-  ::fortress_tut_msgs::srv::MoveTurtlebot_Response msg_;
-};
-
 class Init_MoveTurtlebot_Response_success
 {
 public:
   Init_MoveTurtlebot_Response_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_MoveTurtlebot_Response_x success(::fortress_tut_msgs::srv::MoveTurtlebot_Response::_success_type arg)
+  ::fortress_tut_msgs::srv::MoveTurtlebot_Response success(::fortress_tut_msgs::srv::MoveTurtlebot_Response::_success_type arg)
   {
     msg_.success = std::move(arg);
-    return Init_MoveTurtlebot_Response_x(msg_);
+    return std::move(msg_);
   }
 
 private:

@@ -40,7 +40,6 @@ class RobotNode(Node):
     def get_pose(self, odom: Odometry):
         self.current_pose.x = odom.pose.pose.position.x
         self.current_pose.y = odom.pose.pose.position.y
-
         orientation = odom.pose.pose.orientation
         self.current_pose.z = atan2(
             2 * (orientation.w * orientation.z + orientation.x * orientation.y),
@@ -51,7 +50,6 @@ class RobotNode(Node):
         Ts = self.get_parameter("Ts").get_parameter_value().double_value
         error_x = (desired_x - self.current_pose.x)
         error_y = (desired_y - self.current_pose.y)
-
         if (
             (abs(error_x) < self.get_parameter("tol_x").get_parameter_value().double_value) and 
             (abs(error_y) < self.get_parameter("tol_y").get_parameter_value().double_value)
@@ -70,9 +68,7 @@ class RobotNode(Node):
             error_yaw = atan(error_y / error_x) - self.current_pose.z
             if (error_x <= 0) and (error_y <= 0):
                 error_position = 0 - error_position
-                
             self.get_logger().info(f"Current position error\tx: {error_x:.4f}m\ty: {error_y:.4f}m\t")
-
             if self.yaw_prev_error is None:
                 self.yaw_prev_error = error_yaw
 
@@ -84,21 +80,17 @@ class RobotNode(Node):
                 (self.yaw_integral * self.get_parameter("Ki").get_parameter_value().double_value) + 
                 (((error_yaw - self.yaw_prev_error) / Ts) * self.get_parameter("Kd").get_parameter_value().double_value)
             )
-
             self.pub_cmd.publish(cmd_msg)
-
             self.yaw_prev_error = error_yaw
 
     def orientation_callback(self, desired_yaw: float):
         error_yaw = desired_yaw - self.current_pose.z
-
         if (abs(error_yaw) < self.get_parameter("tol_yaw").get_parameter_value().double_value):
             stop_signal = Twist()
             self.pub_cmd.publish(stop_signal)
             self.get_logger().info("Orientation movement control complete")
             self.destroy_timer(self.orientation_controller_sampler)
             self.orientation_controller_sampler = None
-
             return
         else:
             self.get_logger().info(f"Current yaw error: {error_yaw}r")
@@ -108,15 +100,9 @@ class RobotNode(Node):
 
     def move_turtlebot3(self, request: MoveTurtlebot.Request, response: MoveTurtlebot.Response):
         response.success = False
-
         Ts = self.get_parameter("Ts").get_parameter_value().double_value
         self.position_controller_sampler = self.create_timer(Ts, partial(self.position_callback, request.x, request.y, request.yaw))
-
         response.success = True
-        response.x = self.current_pose.x
-        response.y = self.current_pose.y
-        response.yaw = self.current_pose.z
-
         return response
 
 

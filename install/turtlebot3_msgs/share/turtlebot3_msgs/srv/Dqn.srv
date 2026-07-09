@@ -1,1 +1,6 @@
-/home/dr/Documents/ros2_workspaces/fortress_tut_ws/src/turtlebot3_msgs/srv/Dqn.srv
+uint8 action
+bool init
+---
+float32[] state
+float32 reward
+bool done

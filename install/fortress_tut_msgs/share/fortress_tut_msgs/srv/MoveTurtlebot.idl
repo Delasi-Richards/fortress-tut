@@ -14,12 +14,6 @@ module fortress_tut_msgs {
     };
     struct MoveTurtlebot_Response {
       boolean success;
-
-      double x;
-
-      double y;
-
-      double yaw;
     };
   };
 };

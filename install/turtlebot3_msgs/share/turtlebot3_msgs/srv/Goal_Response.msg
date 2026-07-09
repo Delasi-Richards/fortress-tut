@@ -1,1 +1,4 @@
-/home/dr/Documents/ros2_workspaces/fortress_tut_ws/build/turtlebot3_msgs/rosidl_cmake/srv/Goal_Response.msg
+
+float32 pose_x
+float32 pose_y
+bool success

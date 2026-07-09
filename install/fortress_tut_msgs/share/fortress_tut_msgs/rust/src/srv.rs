@@ -80,21 +80,6 @@ pub struct MoveTurtlebot_Response {
     #[allow(missing_docs)]
     pub success: bool,
 
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub x: f64,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub y: f64,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub yaw: f64,
-
 }
 
 
@@ -112,15 +97,9 @@ impl rosidl_runtime_rs::Message for MoveTurtlebot_Response {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         success: msg.success,
-        x: msg.x,
-        y: msg.y,
-        yaw: msg.yaw,
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
       success: msg.success,
-      x: msg.x,
-      y: msg.y,
-      yaw: msg.yaw,
       })
     }
   }
@@ -128,9 +107,6 @@ impl rosidl_runtime_rs::Message for MoveTurtlebot_Response {
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
       success: msg.success,
-      x: msg.x,
-      y: msg.y,
-      yaw: msg.yaw,
     }
   }
 }

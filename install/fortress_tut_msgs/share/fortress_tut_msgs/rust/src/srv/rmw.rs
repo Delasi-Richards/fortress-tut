@@ -117,21 +117,6 @@ pub struct MoveTurtlebot_Response {
     #[allow(missing_docs)]
     pub success: bool,
 
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub x: f64,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub y: f64,
-
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub yaw: f64,
-
 }
 
 

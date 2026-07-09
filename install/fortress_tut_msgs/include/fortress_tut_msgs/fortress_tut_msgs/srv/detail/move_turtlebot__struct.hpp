@@ -182,9 +182,6 @@ struct MoveTurtlebot_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->success = false;
-      this->x = 0.0;
-      this->y = 0.0;
-      this->yaw = 0.0;
     }
   }
 
@@ -195,9 +192,6 @@ struct MoveTurtlebot_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->success = false;
-      this->x = 0.0;
-      this->y = 0.0;
-      this->yaw = 0.0;
     }
   }
 
@@ -205,39 +199,12 @@ struct MoveTurtlebot_Response_
   using _success_type =
     bool;
   _success_type success;
-  using _x_type =
-    double;
-  _x_type x;
-  using _y_type =
-    double;
-  _y_type y;
-  using _yaw_type =
-    double;
-  _yaw_type yaw;
 
   // setters for named parameter idiom
   Type & set__success(
     const bool & _arg)
   {
     this->success = _arg;
-    return *this;
-  }
-  Type & set__x(
-    const double & _arg)
-  {
-    this->x = _arg;
-    return *this;
-  }
-  Type & set__y(
-    const double & _arg)
-  {
-    this->y = _arg;
-    return *this;
-  }
-  Type & set__yaw(
-    const double & _arg)
-  {
-    this->yaw = _arg;
     return *this;
   }
 
@@ -284,15 +251,6 @@ struct MoveTurtlebot_Response_
   bool operator==(const MoveTurtlebot_Response_ & other) const
   {
     if (this->success != other.success) {
-      return false;
-    }
-    if (this->x != other.x) {
-      return false;
-    }
-    if (this->y != other.y) {
-      return false;
-    }
-    if (this->yaw != other.yaw) {
       return false;
     }
     return true;

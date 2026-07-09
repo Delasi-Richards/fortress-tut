@@ -42,9 +42,6 @@ typedef struct fortress_tut_msgs__srv__MoveTurtlebot_Request__Sequence
 typedef struct fortress_tut_msgs__srv__MoveTurtlebot_Response
 {
   bool success;
-  double x;
-  double y;
-  double yaw;
 } fortress_tut_msgs__srv__MoveTurtlebot_Response;
 
 // Struct for a sequence of fortress_tut_msgs__srv__MoveTurtlebot_Response.
